@@ -8,8 +8,6 @@ function App() {
 
   return (
     <div>
-      <h1>my music</h1>
-      
       {tracks.map(track => (
         <button key={track.id} onClick={() => setCurrent(track)}>
           {track.title} - {track.artist}
